@@ -23,7 +23,7 @@ const observer = new MutationObserver((mutations) => {
       item.style.backgroundColor = "#DCDCDC";
       item.style.font = "bold 15px arial";
       item.style.margin = "10px";
-      item.style.width = "500px";
+      item.style.width = "400px";
       var link = document.createElement("a");
       link.href = vid.video_url;
       var thumbnail = document.createElement("img");
